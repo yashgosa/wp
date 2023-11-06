@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple intrest calculator</title>
+    <link rel="stylesheet" href="sintrest.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="input-wrapper">
+            <label for="principal-input">Principal($): </label>
+            <input type="number" id="principal-input" class="input">
+        </div>
+        
+        <div class="input-wrapper">
+            <label for="rate-input">Rate: </label>
+            <input type="number" id="rate-input" class="input">
+        </div>
+
+        <div class="input-wrapper">
+            <label for="time-input">Time: </label>
+            <input type="number" id="time-input", class="input">
+            <select name="duration" id="duration">
+                <option value="none">Select Duration</option>
+                <option value="year">Year</option>
+                <option value="month">Month</option>
+            </select>
+        </div>
+
+        <button id="btn">Calculate</button>
+        <div id="results"></div>
+    </div>
+</body>
+<script src = "sintrest.js" defer></script>
+</html>

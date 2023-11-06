@@ -1,0 +1,62 @@
+body{
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:red;
+}
+
+.wrapper{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.input-wrapper{
+    padding: 20px;
+}
+
+.input{
+    border: none;
+    background: none;
+    border-bottom: 2px solid pink;
+}
+
+.input:focus{
+    border: none;
+    background: none;
+    outline:none;
+    border-bottom: 2px solid red;
+}
+
+#btn{
+    border: 2px solid red;
+    color: red;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+#results{
+    /* margin-top: 10%; */
+    padding: 20px
+}
+
+.opt{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#duration{
+    margin-top: 10%;
+    border: 2px solid red;
+    color: red;
+    padding: 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+

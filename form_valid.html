@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+<script src="form_valid.js" defer></script>
+    <link rel="stylesheet" href="form_valid.css">
+</head>
+<body>
+    <h1>Welcome to form validation</h1>
+    <form action="done.html" name = "myForm" onsubmit="return validateForm()" method="post">
+        <div class = "formdesign" id="name">
+            <label>Name: </label> <input type="text" name ="fname" required>
+            <br>
+            <span class="formerror">
+
+            </span>
+        </div>
+
+        <div class="formdesign" id="phone">
+            <label>Phone: </label> <input type="phone" name ="fphone" required>
+            <br> <span class = "formerror"></span>
+        </div>
+
+        <div class="formdesign" id = "email">
+            <label>Email: </label> <input type="email" name="femail" required>
+            <br> <span class = "formerror"></span>
+        </div>
+
+        <div class="formdesign" id = "pass">
+            <label>Password</label> <input type="password" name="fpass" required>
+            <br> <span class = "formerror"></span>
+        </div>
+
+        <div class="formdesign" id = "pass">
+            <label>Confirm Password</label> <input type="password" name = "fcpass" required>
+            <br> <span class = "formerror"></span>
+        </div>
+
+        <div class="formdesign" id = "pass">
+            <label for="ccn">Credit Card Number:</label>
+            <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+        </div>
+
+       
+        <input class = "but" type="submit" value="Submit">
+        
+    </form>
+</body>
+
+</html>

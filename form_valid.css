@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to right, rgb(107, 0, 128), rgb(0, 22, 100));
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+form{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, rgb(209, 255, 5), rgb(46, 163, 0));
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: black 0px 20px 40px -30px;
+}
+
+.formdesign{
+    padding: 5px;
+}
+
+.formerror{
+    padding: 2px;
+    color: red;
+}
+
+.but{
+    border: 5px solid white;
+    background: linear-gradient(to right, rgb(209, 255, 5), rgb(46, 163, 0));
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+}
